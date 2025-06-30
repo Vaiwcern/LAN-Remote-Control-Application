@@ -59,12 +59,7 @@ If both the client and server are running on the **same machine**, users can eit
 
 To browse the server’s file system, the client user must first click the **"BROWSE DIRECTORY"** button. This will open the *Browse Directory* dialog, which displays a table of drives, folders, and files on the server.
 
-The table includes the following attributes for each item:
-- **Name**
-- **Last Modified Time**
-- **Size**
-
-Below are screenshots demonstrating this feature:
+The table includes the following attributes for each item: **Name**, **Last Modified Time**, **Size**
 
 <table>
   <tr>
