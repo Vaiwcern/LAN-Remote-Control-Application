@@ -3,7 +3,7 @@ A university project for the *Computer Network* course (Semester 4, HCMUS).
 This application allows a client machine to remotely control a server machine within the same LAN network. It is implemented in **C++** using the **MFC** framework and communicates via **sockets** using the **TCP protocol** at the transport layer.
 
 
-You can [📄 View the project report (PDF)](docs/Report.pdf) or ▶️ [Watch demo video on YouTube]([[https://youtu.be/bAyCufM2_0o](https://www.youtube.com/watch?v=bAyCufM2_0o)])
+You can [📄 View the project report (PDF)](report.pdf) or ▶️ [Watch demo video on YouTube](https://www.youtube.com/watch?v=bAyCufM2_0o)
 
 
 <table>
