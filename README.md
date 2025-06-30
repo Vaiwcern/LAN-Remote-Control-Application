@@ -80,16 +80,19 @@ The application allows the client to view a list of running processes on the ser
       <em>List processes</em>
     </td>
     <td align="center">
-      <img src="assets/ui-dialog-show-process-kill-before.png" alt="Kill Process Before" width="145"/>
-      <img src="assets/ui-dialog-show-process-kill-after.png" alt="Kill Process After" width="145"/><br/>
-      <em>Kill a process</em>
-    </td>
-    <td align="center">
       <img src="assets/ui-dialog-show-process-start-before.png" alt="Start Process" width="300"/><br/>
       <em>Start a process</em>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/ui-dialog-show-process-kill-before.png" alt="Kill Process Before" width="300"/>
+      <img src="assets/ui-dialog-show-process-kill-after.png" alt="Kill Process After" width="300"/><br/>
+      <em>Kill a process</em>
+    </td>
+  </tr>
 </table>
+
 
 ## 🎥 Demo Video
 <a href="https://youtu.be/bAyCufM2_0o" target="_blank">
