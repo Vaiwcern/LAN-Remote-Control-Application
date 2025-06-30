@@ -1,9 +1,6 @@
 # LAN Remote Control Application
-
 A university project for the *Computer Network* course (Semester 4, HCMUS).
-
 This application allows a client machine to remotely control a server machine within the same LAN network. It is implemented in **C++** using the **MFC** framework and communicates via **sockets** using the **TCP protocol** at the transport layer.
-
 <table>
   <tr>
     <td align="center">
@@ -22,18 +19,16 @@ This application allows a client machine to remotely control a server machine wi
 </table>
 
 ## ✨ Features
-
 - Connect to the server using an IP address and port.
 - Display information about processes running on the server.
 - Display information about active applications.
 - Capture and view the screen of the server machine.
 - Log key presses on the server machine.
 - Browse the directory tree of the server machine.
-- 
+
+  
 ## 🔌 Connect Server and Client
-
 To connect the client to the server, users must enter the correct **IP address** and **port number** in the connection dialog. Below are example screenshots of the connection process:
-
 <table>
   <tr>
     <td align="center">
@@ -55,8 +50,8 @@ When connecting between **two different machines on the same local network**, th
 
 If both the client and server are running on the **same machine**, users can either use the actual IP address or simply enter the **loopback address `127.0.0.1`**. This special IP refers to the local machine itself, allowing internal communication without going through a physical network.
 
-## 📁 Browse Server Directory
 
+## 📁 Browse Server Directory
 To browse the server’s file system, the client user must first click the **"BROWSE DIRECTORY"** button. This will open the *Browse Directory* dialog, which displays a table of drives, folders, and files on the server.
 
 The table includes the following attributes for each item: **Name**, **Last Modified Time**, **Size**
@@ -76,16 +71,13 @@ The table includes the following attributes for each item: **Name**, **Last Modi
 
 
 ## 🎥 Demo Video
-
 <a href="https://youtu.be/bAyCufM2_0o" target="_blank">
   <img src="https://img.youtube.com/vi/bAyCufM2_0o/hqdefault.jpg" alt="Watch the video" width="480">
 </a>
 
+
 ## 🚀 Usage
-
 To run the application, download and run the following files:
-
 - `Server/x64/Debug/Server.exe`
 - `Client/x64/Debug/Client.exe`
-
 Make sure both client and server are on the same local network.
