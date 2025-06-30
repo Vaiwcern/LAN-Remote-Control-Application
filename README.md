@@ -31,7 +31,7 @@ To connect the client to the server, users must enter the correct **IP address**
 
 - **Connecting between two different machines on the same network**:  
   The client must know the **IP address of the server machine**. This can be found on the server by running the `ipconfig` command in **Command Prompt**.  
-  The port number is **6666**, as pre-defined in the source code.
+  The default port number is **6666**, as pre-defined in the source code.
 
 - **Connecting on the same machine**:  
   In addition to using the actual IP address, users can also enter the **loopback address `127.0.0.1`**. This is a special IP that refers to the local machine itself.  
