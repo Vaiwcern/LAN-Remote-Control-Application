@@ -1,4 +1,4 @@
-# HCMUS-remote-controller-with-socket
+# LAN Remote Control Application
 Project for Computer Network course in Semester 4, HCMUS
 
 The application allows users (using a client host) to remotely control a computer (server host) within the same LAN network. The application utilizes sockets and TCP protocol at the Transport layer and is programmed in the C++ language, using the MFC library. Here are the functions of the application:
@@ -9,6 +9,10 @@ The application allows users (using a client host) to remotely control a compute
 - Capture key presses on the server machine.
 - Browse the directory tree on the server machine.
 
+# Usage
 In order to run this application directly, users only need to download either of 2 files:
 - Server/x64/Debug/Server.exe
 - Client/x64/Debug/Client.exe
+
+# Demo Video
+[Watch demo on YouTube](https://youtu.be/VIDEO_ID)
