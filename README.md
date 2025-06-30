@@ -71,7 +71,7 @@ The table includes the following attributes for each item: **Name**, **Last Modi
 
 ## 🧩 List, Start, and Kill Processes
 
-The application allows the client to view a list of running processes on the server, as well as start or terminate processes remotely.
+This feature allows the client to monitor running processes on the server, start new processes by specifying their names, or remotely terminate selected ones.
 
 <table>
   <tr>
@@ -93,6 +93,14 @@ The application allows the client to view a list of running processes on the ser
   </tr>
 </table>
 
+## 🖥️ Capture Screen
+
+This feature allows the client to remotely capture and view the current screen of the server machine in real time.
+
+<p align="center">
+  <img src="assets/ui-dialog-cap-screen.png" alt="Capture Screen" width="400"><br/>
+  <em>Capture Server Screen</em>
+</p>
 
 ## 🎥 Demo Video
 <a href="https://youtu.be/bAyCufM2_0o" target="_blank">
