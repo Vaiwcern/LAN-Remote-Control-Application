@@ -9,10 +9,10 @@ The application allows users (using a client host) to remotely control a compute
 - Capture key presses on the server machine.
 - Browse the directory tree on the server machine.
 
+# Demo Video
+[![Watch the video](https://img.youtube.com/vi/bAyCufM2_0o/maxresdefault.jpg)](https://youtu.be/bAyCufM2_0o)
+
 # Usage
 In order to run this application directly, users only need to download either of 2 files:
 - Server/x64/Debug/Server.exe
 - Client/x64/Debug/Client.exe
-
-# Demo Video
-[Watch demo on YouTube](https://youtu.be/VIDEO_ID)
