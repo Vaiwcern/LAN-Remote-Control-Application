@@ -25,11 +25,6 @@ This application allows a client machine to remotely control a server machine wi
   <em>Server Diagram</em>
 </p>
 
-
-<p align="center">
-  <img src="assets/ui-6-buttons-enabled.png" alt="Application UI" width="480">
-</p>
-
 ## 🔌 Connect Server and Client
 
 To connect the client to the server, users must enter the correct **IP address** and **port number** in the connection dialog. Below are example screenshots of the connection process:
