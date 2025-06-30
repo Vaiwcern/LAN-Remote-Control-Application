@@ -29,26 +29,31 @@ This application allows a client machine to remotely control a server machine wi
 - Capture and view the screen of the server machine.
 - Log key presses on the server machine.
 - Browse the directory tree of the server machine.
-
+- 
 ## 🔌 Connect Server and Client
 
 To connect the client to the server, users must enter the correct **IP address** and **port number** in the connection dialog. Below are example screenshots of the connection process:
 
-<p align="center">
-  <img src="assets/ui-dialog-connect.png" alt="Connect Dialog" width="320">
-  <img src="assets/ui-dialog-connect-failed.png" alt="Connect Failed" width="320">
-  <img src="assets/ui-dialog-connect-successful.png" alt="Connect Successful" width="320">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/ui-dialog-connect.png" alt="Connect Dialog" width="280"/><br/>
+      <em>Connect Dialog</em>
+    </td>
+    <td align="center">
+      <img src="assets/ui-dialog-connect-failed.png" alt="Connect Failed" width="280"/><br/>
+      <em>Connection Failed</em>
+    </td>
+    <td align="center">
+      <img src="assets/ui-dialog-connect-successful.png" alt="Connect Successful" width="280"/><br/>
+      <em>Connection Successful</em>
+    </td>
+  </tr>
+</table>
 
-### 📌 Notes on IP Address
+When connecting between **two different machines on the same local network**, the client must know the **IP address of the server**. This address can be obtained by running the `ipconfig` command in **Command Prompt** on the server machine. The default port number is **6666**, as pre-defined in the source code.
 
-- **Connecting between two different machines on the same network**:  
-  The client must know the **IP address of the server machine**. This can be found on the server by running the `ipconfig` command in **Command Prompt**.  
-  The default port number is **6666**, as pre-defined in the source code.
-
-- **Connecting on the same machine**:  
-  In addition to using the actual IP address, users can also enter the **loopback address `127.0.0.1`**. This is a special IP that refers to the local machine itself.  
-  Any data sent to `127.0.0.1` will be handled internally without going through the physical network.
+If both the client and server are running on the **same machine**, users can either use the actual IP address or simply enter the **loopback address `127.0.0.1`**. This special IP refers to the local machine itself, allowing internal communication without going through a physical network.
 
 
 ## 🎥 Demo Video
