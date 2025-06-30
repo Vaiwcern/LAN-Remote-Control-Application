@@ -4,15 +4,6 @@ A university project for the *Computer Network* course (Semester 4, HCMUS).
 
 This application allows a client machine to remotely control a server machine within the same LAN network. It is implemented in **C++** using the **MFC** framework and communicates via **sockets** using the **TCP protocol** at the transport layer.
 
-## ✨ Features
-
-- Connect to the server using an IP address and port.
-- Display information about processes running on the server.
-- Display information about active applications.
-- Capture and view the screen of the server machine.
-- Log key presses on the server machine.
-- Browse the directory tree of the server machine.
-
 <table>
   <tr>
     <td align="center">
@@ -29,6 +20,15 @@ This application allows a client machine to remotely control a server machine wi
     </td>
   </tr>
 </table>
+
+## ✨ Features
+
+- Connect to the server using an IP address and port.
+- Display information about processes running on the server.
+- Display information about active applications.
+- Capture and view the screen of the server machine.
+- Log key presses on the server machine.
+- Browse the directory tree of the server machine.
 
 ## 🔌 Connect Server and Client
 
