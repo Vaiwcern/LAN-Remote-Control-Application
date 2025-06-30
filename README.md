@@ -1,6 +1,9 @@
 # LAN Remote Control Application
 A university project for the *Computer Network* course (Semester 4, HCMUS).
 This application allows a client machine to remotely control a server machine within the same LAN network. It is implemented in **C++** using the **MFC** framework and communicates via **sockets** using the **TCP protocol** at the transport layer.
+You can [📄 View the project report (PDF)](docs/Report.pdf) or ▶️ [Watch demo video on YouTube]([https://youtu.be/bAyCufM2_0o])
+
+
 <table>
   <tr>
     <td align="center">
@@ -101,11 +104,6 @@ This feature allows the client to remotely capture and view the current screen o
   <img src="assets/ui-dialog-cap-screen.png" alt="Capture Screen" width="400"><br/>
   <em>Capture Server Screen</em>
 </p>
-
-## 🎥 Demo Video
-<a href="https://youtu.be/bAyCufM2_0o" target="_blank">
-  <img src="https://img.youtube.com/vi/bAyCufM2_0o/hqdefault.jpg" alt="Watch the video" width="480">
-</a>
 
 ## ⌨️ Keystroke
 
