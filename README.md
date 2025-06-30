@@ -13,6 +13,10 @@ This application allows a client machine to remotely control a server machine wi
 - Log key presses on the server machine.
 - Browse the directory tree of the server machine.
 
+<p align="center">
+  <img src="assets/ui-6-buttons-enabled.png" alt="Application UI" width="480">
+</p>
+
 ## 🎥 Demo Video
 
 <a href="https://youtu.be/bAyCufM2_0o" target="_blank">
