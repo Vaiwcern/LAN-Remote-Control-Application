@@ -55,6 +55,30 @@ When connecting between **two different machines on the same local network**, th
 
 If both the client and server are running on the **same machine**, users can either use the actual IP address or simply enter the **loopback address `127.0.0.1`**. This special IP refers to the local machine itself, allowing internal communication without going through a physical network.
 
+## 📁 Browse Server Directory
+
+To browse the server’s file system, the client user must first click the **"BROWSE DIRECTORY"** button. This will open the *Browse Directory* dialog, which displays a table of drives, folders, and files on the server.
+
+The table includes the following attributes for each item:
+- **Name**
+- **Last Modified Time**
+- **Size**
+
+Below are screenshots demonstrating this feature:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/ui-dialog-browse-back-before.png" alt="Browse Directory" width="300"/><br/>
+      <em>Browsing</em>
+    </td>
+    <td align="center">
+      <img src="assets/ui-dialog-browse-unable.png" alt="Browse Failed" width="300"/><br/>
+      <em>Failed</em>
+    </td>
+  </tr>
+</table>
+
 
 ## 🎥 Demo Video
 
