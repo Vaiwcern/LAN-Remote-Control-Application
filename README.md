@@ -13,17 +13,22 @@ This application allows a client machine to remotely control a server machine wi
 - Log key presses on the server machine.
 - Browse the directory tree of the server machine.
 
-<p align="center">
-  <img src="assets/ui-6-buttons-enabled.png" alt="Main UI" width="300">
-  <img src="assets/diagram-client.png" alt="Client Diagram" width="300">
-  <img src="assets/diagram-server.png" alt="Server Diagram" width="300">
-</p>
-
-<p align="center">
-  <em>Main UI</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <em>Client Diagram</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <em>Server Diagram</em>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/ui-6-buttons-enabled.png" alt="Main UI" width="300"/><br/>
+      <em>Main UI</em>
+    </td>
+    <td align="center">
+      <img src="assets/diagram-client.png" alt="Client Diagram" width="300"/><br/>
+      <em>Client Diagram</em>
+    </td>
+    <td align="center">
+      <img src="assets/diagram-server.png" alt="Server Diagram" width="300"/><br/>
+      <em>Server Diagram</em>
+    </td>
+  </tr>
+</table>
 
 ## 🔌 Connect Server and Client
 
