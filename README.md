@@ -1,18 +1,29 @@
 # LAN Remote Control Application
-Project for Computer Network course in Semester 4, HCMUS
 
-The application allows users (using a client host) to remotely control a computer (server host) within the same LAN network. The application utilizes sockets and TCP protocol at the Transport layer and is programmed in the C++ language, using the MFC library. Here are the functions of the application:
-- Connect to the server using the IP address and Port number.
-- Show information about the processes currently running on the server.
-- Show information about the applications currently running on the server.
-- Capture the screen of the server machine.
-- Capture key presses on the server machine.
-- Browse the directory tree on the server machine.
+A university project for the *Computer Network* course (Semester 4, HCMUS).
 
-# Demo Video
-[![Watch the video](https://img.youtube.com/vi/bAyCufM2_0o/maxresdefault.jpg)](https://youtu.be/bAyCufM2_0o)
+This application allows a client machine to remotely control a server machine within the same LAN network. It is implemented in **C++** using the **MFC** framework and communicates via **sockets** using the **TCP protocol** at the transport layer.
 
-# Usage
-In order to run this application directly, users only need to download and run 2 files:
-- Server/x64/Debug/Server.exe
-- Client/x64/Debug/Client.exe
+## ✨ Features
+
+- Connect to the server using an IP address and port.
+- Display information about processes running on the server.
+- Display information about active applications.
+- Capture and view the screen of the server machine.
+- Log key presses on the server machine.
+- Browse the directory tree of the server machine.
+
+## 🎥 Demo Video
+
+<a href="https://youtu.be/bAyCufM2_0o" target="_blank">
+  <img src="https://img.youtube.com/vi/bAyCufM2_0o/hqdefault.jpg" alt="Watch the video" width="480">
+</a>
+
+## 🚀 Usage
+
+To run the application, download and run the following files:
+
+- `Server/x64/Debug/Server.exe`
+- `Client/x64/Debug/Client.exe`
+
+Make sure both client and server are on the same local network.
