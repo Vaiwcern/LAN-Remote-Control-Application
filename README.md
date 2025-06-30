@@ -107,6 +107,14 @@ This feature allows the client to remotely capture and view the current screen o
   <img src="https://img.youtube.com/vi/bAyCufM2_0o/hqdefault.jpg" alt="Watch the video" width="480">
 </a>
 
+## ⌨️ Keystroke
+
+This feature allows the client to remotely capture and display all keystrokes typed on the server machine.
+
+<p align="center">
+  <img src="assets/ui-dialog-keystroke-hooked.png" alt="Keystroke Hooked" width="400"><br/>
+  <em>Keystroke Hooked</em>
+</p>
 
 ## 🚀 Usage
 To run the application, download and run the following files:
