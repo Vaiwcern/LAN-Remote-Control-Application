@@ -6,6 +6,6 @@
 /Client/Debug/
 /Client/Client/x64/
 /Client/Client/Debug/
-*.png
+# *.png
 *.bmp
 *.pdb
