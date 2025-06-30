@@ -14,6 +14,19 @@ This application allows a client machine to remotely control a server machine wi
 - Browse the directory tree of the server machine.
 
 <p align="center">
+  <img src="assets/ui-6-buttons-enabled.png" alt="Main UI" width="300">
+  <img src="assets/diagram-client.png" alt="Client Diagram" width="300">
+  <img src="assets/diagram-server.png" alt="Server Diagram" width="300">
+</p>
+
+<p align="center">
+  <em>Main UI</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>Client Diagram</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>Server Diagram</em>
+</p>
+
+
+<p align="center">
   <img src="assets/ui-6-buttons-enabled.png" alt="Application UI" width="480">
 </p>
 
